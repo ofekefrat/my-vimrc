@@ -1,0 +1,18 @@
+Plug 'terryma/vim-multiple-cursors'
+Plug 'machakann/vim-highlightedyank'
+Plug 'preservim/nerdtree'
+
+set number relativenumber
+set clipboard+=unnamed
+
+set multiple-cursors
+set surround
+
+set NERDTree
+let g:NERDTreeMapActivateNode = 'l'
+let g:NERDTreeMapJumpParent = 'h'
+nmap <C-b> :NERDTree<CR>
+
+
+set highlightedyank
+let g:highlightedyank_highlight_duration = "1000"
